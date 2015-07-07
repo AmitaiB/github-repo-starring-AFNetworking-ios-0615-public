@@ -43,6 +43,7 @@ describe(@"FISGithubAPIClient", ^{
         it(@"Should respond to getrepositories class method selector", ^{
             expect([FISGithubAPIClient class]).to.respondTo(@selector(getRepositoriesWithCompletion:));
         });
+
         it(@"Should get repositories",  ^{
             waitUntil(^(DoneCallback done) {
                 [FISGithubAPIClient getRepositoriesWithCompletion:^(NSArray *repoDictionaries) {

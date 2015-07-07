@@ -1,5 +1,5 @@
 ---
-tags: apis, nsurlsession, uialertview
+tags: afnetworking
 language: objc
 ---
 
